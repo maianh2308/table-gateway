@@ -1,0 +1,37 @@
+h2 {
+  margin-left: 40%;
+}
+.hihi {
+  display: inline-flex;
+  margin-left: 20%;
+  margin-bottom: 15px;
+}
+.ant-input-group {
+  width: 160px;
+}
+.ant-select {
+  margin-right: 10px;
+}
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: rgb(72, 66, 66);
+}
+.ant-input-search .ant-input:hover,
+.ant-input-search .ant-input:focus {
+  border-color: rgb(72, 66, 66);
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  border-color: rgb(72, 66, 66);
+}
+
+.ant-table-thead > tr > th {
+  background-color: rgb(8, 176, 195);
+  color: white;
+  border-bottom-color: black;
+}
+.ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  height: 100%;
+  background-color: white;
+}
